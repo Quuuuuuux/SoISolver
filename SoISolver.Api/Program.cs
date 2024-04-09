@@ -11,15 +11,12 @@ short d = 3;
 
 var len = Math.Pow(r, d);
 
+// пример создания класса мультиоперации (r - ранг, d - размерность, массив это векторная форма)
 var a = new Multioperation(r, d, new byte[] { 3,3,2,0,0,1,1,2 });
 
-// short r = 2;
-// short d = 2;
-//
-// var len = Math.Pow(r, d);
-//
-// var a = new Multioperation(r, d, new byte[] { 1,3,3,2 });
 
+
+//Вывод матричной формы мультиоперации в консоль в виде 1 0
 for (var i = 0; i < r; ++i)
 {
     Console.Write("[ ");
@@ -34,6 +31,7 @@ for (var i = 0; i < r; ++i)
     Console.WriteLine(" ]");
 }
 
+//пример сборки дереве выражений для мультиоперации (а - мультиоперация, массив аргументы)
 var b = new MultioperationExpressionBuilder();
 
 try
