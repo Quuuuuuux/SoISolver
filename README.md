@@ -2,6 +2,8 @@
 
 ## Необходимый софт
 Надо установить .Net Core 7 https://dotnet.microsoft.com/en-us/download/dotnet/7.0
+
+
 Думаю можно поставить последнию версию его, должно работать
 
 ASP.NET Core ставится сам вместе с .NET
